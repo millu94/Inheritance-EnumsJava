@@ -1,9 +1,12 @@
+package rooms;
+
 public enum RoomType {
 
     SINGLE(1),
     DOUBLE(2),
     TRIPLE(3),
-    FAMILY(4);
+    FAMILY(4),
+    CONFERENCE(50);
 
     private final int value;
 
